@@ -132,10 +132,10 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/sydneylines/LWC_TEI2024/main/Inferno/Inferno_english.xml?person_annotation_20241007150912548",
+	"id": "https://raw.githubusercontent.com/sydneylines/LWC_TEI2024/main/Inferno/Inferno_english.xml?person_annotation_20241007151100113",
 	"type": "oa:Annotation",
-	"dcterms:created": "2024-10-07T18:09:12.548Z",
-	"dcterms:modified": "2024-10-07T18:09:12.548Z",
+	"dcterms:created": "2024-10-07T18:11:00.113Z",
+	"dcterms:modified": "2024-10-07T18:11:00.113Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/sydneylines",
 		"@type": [
@@ -146,7 +146,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/sydneylines/LWC_TEI2024/main/Inferno/Inferno_english.xml?person_annotation_20241007150912548#Target",
+		"@id": "https://raw.githubusercontent.com/sydneylines/LWC_TEI2024/main/Inferno/Inferno_english.xml?person_annotation_20241007151100113#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/sydneylines/LWC_TEI2024/main/Inferno/Inferno_english.xml",
@@ -160,18 +160,14 @@
 			"schema:softwareVersion": "3.6.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/sydneylines/LWC_TEI2024/main/Inferno/Inferno_english.xml?person_annotation_20241007150912548#Selector",
+			"@id": "https://raw.githubusercontent.com/sydneylines/LWC_TEI2024/main/Inferno/Inferno_english.xml?person_annotation_20241007151100113#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/lg[5]/l[2]/persName"
+			"rdf:value": "TEI/text/body/div/lg[5]/l[2]/persName/persName"
 		}
 	},
 	"oa:hasBody": {
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person",
-			"cwrc:FictionalPerson"
-		],
-		"@id": "http://www.wikidata.org/entity/Q1067",
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q1398",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -180,7 +176,8 @@
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.6.0"
-	}
+	},
+	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
@@ -228,7 +225,7 @@
 
             <lg n="5">
                <l n="13">“Let us descend now into the blind world,”</l>
-               <l n="14">Began <persName key="Dante Alighieri" ref="http://www.wikidata.org/entity/Q1067" role="spk" type="both">the Poet</persName>, pallid utterly;</l>
+               <l n="14">Began <persName key="Dante Alighieri" ref="http://www.wikidata.org/entity/Q1067" role="spk" type="both"><persName key="Virgil" ref="http://www.wikidata.org/entity/Q1398" cert="high" role="spk"/>the Poet</persName>, pallid utterly;</l>
                <l n="15">“I will be first, and thou shalt second be.”</l>
             </lg>
 
